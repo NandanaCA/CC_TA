@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './PES2UG22CS336' 
+                    sh 'invalid_command' 
                 }
             }
         }
